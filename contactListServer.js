@@ -25,11 +25,7 @@ var contactList = [
 ]
 
 app.get('/contactApp',function(req,res) //controller -> home.ejs
-{
-    // console.log(req);
-    // console.log(__dirname)
-    // res.send('<h1>Cool it is running</h1>');
-    
+{  
     return res.render('home',{
         contact_list : contactList
     });
@@ -48,14 +44,6 @@ app.post('/create-contact',function(req,res)
     return res.redirect('back');
 });
 
-
-// app.get('/stock', function(req, res) {
-
-//     res.send('hello from api2');
-//   });
-
-
-// app.listen(8000);
 
 app.listen(port, function() {
     console.log(`Contact List Server is listening on ${port}!`)
