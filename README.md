@@ -13,8 +13,8 @@ nodemon contactListServer.js
 
 Open new bash terminal, run the proxy server:
 nodemon index.js
-//[HPM] Proxy created: /chatApp  -> http://localhost:3000
-//[HPM] Proxy created: /contactApp,/create-contact  -> http://localhost:8000
+[HPM] Proxy created: /chatApp  -> http://localhost:3000
+[HPM] Proxy created: /contactApp,/create-contact  -> http://localhost:8000
 //Proxy Server is listening on 80!
 
 
