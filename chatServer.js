@@ -1,16 +1,3 @@
-// const express = require('express');
-// const app = express();
-
-// app.get('/news/headlines', (req, res) => {
-//     res.send('hello from headlines')
-// });
-
-// app.get('/news/other', (req, res) => {
-//     res.send('hello from other')
-// })
-
-
-// app.listen(3000);
 
 const express = require('express');
 const path = require('path');
