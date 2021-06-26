@@ -6,12 +6,12 @@ nodemon chatServer.js
 //Chat Server is listening on 3000!
 
 
-In another bash terminal, run the contact list server:
+Open new bash terminal, run the contact list server:
 nodemon contactListServer.js
 //Contact List Server is listening on 8000!
 
 
-In another bash terminal, run the proxy server:
+Open new bash terminal, run the proxy server:
 nodemon index.js
 //[HPM] Proxy created: /chatApp  -> http://localhost:3000
 //[HPM] Proxy created: /contactApp,/create-contact  -> http://localhost:8000
